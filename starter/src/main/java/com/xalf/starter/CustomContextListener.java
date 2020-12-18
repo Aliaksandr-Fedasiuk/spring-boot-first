@@ -7,7 +7,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 @RequiredArgsConstructor
 public class CustomContextListener implements ApplicationListener<ContextRefreshedEvent> {
 
-    //@Autowired - или это использовать
+    //@Autowired - или это использовать или RequiredArgsConstructor
     private final CustomProperties customProperties;
 
     @Override
