@@ -2,6 +2,6 @@
 
 1'st customer spring-boot starter
 
-> mvn clean install
-> cd starter
-> mvn spring-boot:run
+> mvn clean install  
+> cd starter  
+> mvn spring-boot:run  
