@@ -9,6 +9,7 @@ import java.util.List;
 @ConfigurationProperties("myproperties")
 public class CustomProperties {
     List<String> values;
+    boolean enabled;
 
     public List<String> getValues() {
         return values;
@@ -16,5 +17,13 @@ public class CustomProperties {
 
     public void setValues(List<String> values) {
         this.values = values;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 }
